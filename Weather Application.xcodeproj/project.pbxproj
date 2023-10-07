@@ -75,15 +75,39 @@
 			isa = PBXGroup;
 			children = (
 				9808CF422AD11088004C3F6C /* AppDelegate.swift */,
-				9808CF462AD11088004C3F6C /* HomeVC.swift */,
-				98D737DF2AD1552200AF1822 /* SelectCityVC.swift */,
-				98D737E12AD167AC00AF1822 /* City.swift */,
-				9808CF482AD11088004C3F6C /* Main.storyboard */,
+				98D737E52AD1D88D00AF1822 /* Models */,
+				98D737E42AD1D85700AF1822 /* Views */,
+				98D737E32AD1D83500AF1822 /* Controllers */,
 				9808CF4B2AD110A6004C3F6C /* Assets.xcassets */,
-				9808CF4D2AD110A6004C3F6C /* LaunchScreen.storyboard */,
 				9808CF502AD110A6004C3F6C /* Info.plist */,
 			);
 			path = "Weather Application";
+			sourceTree = "<group>";
+		};
+		98D737E32AD1D83500AF1822 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				98D737DF2AD1552200AF1822 /* SelectCityVC.swift */,
+				9808CF462AD11088004C3F6C /* HomeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		98D737E42AD1D85700AF1822 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9808CF4D2AD110A6004C3F6C /* LaunchScreen.storyboard */,
+				9808CF482AD11088004C3F6C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98D737E52AD1D88D00AF1822 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98D737E12AD167AC00AF1822 /* City.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A3B4F300B39C2BA8D452AB01 /* Frameworks */ = {
